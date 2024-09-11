@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="[d1R4?i@:@N3},03yTkl" x="0" y="0"></block><block type="device_forever" id="v9UI~Z,JjwZM|5^,!WRi" x="205" y="0"></block><block type="device_button_event" id="e5~k{u~5wZrp2%nrp:r2" x="38" y="147"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="lAD:-lRZXGZ8s-3pcFmo"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="robotbit_servo" id="6gFzikuZpRe0aemFJu*$"><field name="index">robotbit.Servos.S1</field><value name="degree"><shadow type="math_number_minmax" id="hy;|mRRYDiCTQeoM2enH"><mutation min="0" max="180" label="Degree" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="device_show_leds" id="9nreJ1]yiN7N)}xqf8EY"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="robotbit_servo" id="4Y#t,isZy7}aF0Qgze#E"><field name="index">robotbit.Servos.S1</field><value name="degree"><shadow type="math_number_minmax" id="k/_N4Q5YNu5kQc*DE}6="><mutation min="0" max="180" label="Degree" precision="0"></mutation><field name="SLIDER">45</field></shadow></value><next><block type="device_show_leds" id="YiiEi4:6srs35J{J_r]~"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="robotbit_servo" id=".Va!gi6A[rEH4PppIQ]/"><field name="index">robotbit.Servos.S1</field><value name="degree"><shadow type="math_number_minmax" id="Q?4a?H~+M-H!qPM$r+`}"><mutation min="0" max="180" label="Degree" precision="0"></mutation><field name="SLIDER">80</field></shadow></value><next><block type="robotbit_servo" id="~*Bv2+Rg3$6Al3?mVU:]"><field name="index">robotbit.Servos.S1</field><value name="degree"><shadow type="math_number_minmax" id="iP:*dl9%dG~1d|M]sMA4"><mutation min="0" max="180" label="Degree" precision="0"></mutation><field name="SLIDER">180</field></shadow></value><next><block type="device_show_leds" id="bNVXPIkRz[@o;49;-7d="><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
